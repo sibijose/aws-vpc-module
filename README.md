@@ -276,7 +276,7 @@ main.tf of the root module will make a call to vpc_module repository.
 
 module "vpc_module" {  
   
-    source = "github.com/pratheeshsatheeshkumar/vpc-module"
+    source = "github.com/sibijose/vpc-module"
       
     project = var.project  
     environment = var.environment  
